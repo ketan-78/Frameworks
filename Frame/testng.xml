@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="Framework.TestComponents.Listeners"/>
+	</listeners>
+  <test thread-count="5" name="DragNDrop">
+	<groups>
+		<run>
+			<exclude name="nest"></exclude>
+			<exclude name="I"></exclude>
+		</run>
+	</groups>
+    <classes>
+      <class name="Framework.Tests.MainTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Nested">
+		<groups>
+		<run>
+			<exclude name="dad"></exclude>
+			<exclude name="I"></exclude>
+		</run>
+	</groups>
+    <classes>
+      <class name="Framework.Tests.nestedF"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Iframe">
+		<groups>
+		<run>
+			<exclude name="nest"></exclude>
+			<exclude name="dad"></exclude>
+		</run>
+	</groups>
+    <classes>
+      <class name="Framework.Tests.Iframe"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

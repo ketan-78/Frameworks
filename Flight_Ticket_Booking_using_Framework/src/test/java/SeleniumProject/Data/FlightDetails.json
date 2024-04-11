@@ -1,0 +1,43 @@
+[
+{
+"countryIntials" : "IND",
+"country" : "INDIA",
+"tripRoute" : "Round Trip",
+"DiscountOffer" : "Indian Armed Forces",
+"CurrencyUnit" : "INR",
+"DC" : "Delhi (DEL)",
+"AC" : "Mumbai (BOM)",
+"DepartureMonth" : "May 2024",
+"ArrivalMonth" : "May 2024",
+"DepartureDate" : "9",
+"ArrivalDate" : "15"
+},
+
+{
+"countryIntials" : "IND",
+"country" : "INDIA",
+"tripRoute" : "One Way",
+"DiscountOffer" : "Student",
+"CurrencyUnit" : "USD",
+"DC" : "Delhi (DEL)",
+"AC" : "Mumbai (BOM)",
+"DepartureMonth" : "June 2024",
+"ArrivalMonth" : "June 2024",
+"DepartureDate" : "15",
+"ArrivalDate" : "20"
+},
+
+{
+"countryIntials" : "IND",
+"country" : "INDIA",
+"tripRoute" : "Round Trip",
+"DiscountOffer" : "Indian Armed Forces",
+"CurrencyUnit" : "INR",
+"DC" : "Delhi (DEL)",
+"AC" : "Mumbai (BOM)",
+"DepartureMonth" : "July 2024",
+"ArrivalMonth" : "July 2024",
+"DepartureDate" : "20",
+"ArrivalDate" : "25"
+}
+]

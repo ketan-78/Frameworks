@@ -1,0 +1,30 @@
+[
+{
+"countryIntials" : "us",
+"country" : "United States (USA)",
+"DiscountOffer" : "Senior Citizen",
+"CurrencyUnit" : "INR",
+"DC1" : "Delhi (DEL)",
+"AC1" : "Mumbai (BOM)",
+"DC2" : "Mumbai (BOM)",
+"AC2" : "Goa (GOI)",
+"DC3" : "Goa (GOI)",
+"AC3" : "Delhi (DEL)",
+"DepartureMonth" : "May 2024",
+"DepartureDate" : "9"
+},
+{
+"countryIntials" : "ind",
+"country" : "India",
+"DiscountOffer" : "Student",
+"CurrencyUnit" : "INR",
+"DC1" : "Delhi (DEL)",
+"AC1" : "Mumbai (BOM)",
+"DC2" : "Mumbai (BOM)",
+"AC2" : "Goa (GOI)",
+"DC3" : "Goa (GOI)",
+"AC3" : "Delhi (DEL)",
+"DepartureMonth" : "May 2024",
+"DepartureDate" : "25"
+}
+]
